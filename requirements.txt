@@ -1,0 +1,24 @@
+# 书法去背景工具依赖列表
+
+# 核心GUI库（通常Python自带，但列出以确保）
+tkinter
+
+# 系统操作和子进程管理（Python标准库）
+os-sys
+subprocess
+
+# 时间处理（Python标准库）
+time
+
+# Web浏览器集成（Python标准库）
+webbrowser
+
+# 图像处理依赖（如果需要额外安装）
+Pillow>=9.0.0
+
+# 其他可能需要的工具
+pyinstaller>=5.0.0  # 用于打包成exe文件
+
+# 开发工具（可选）
+black>=22.0.0  # 代码格式化
+flake8>=4.0.0  # 代码检查
