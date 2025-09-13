@@ -1,0 +1,48 @@
+ImageMagick 是一个功能强大的图像处理工具套件，提供了多种命令行工具用于处理图像。以下是您列出的工具的简要描述：
+
+    compare.exe: 用于比较两个图像的差异。它会输出一个差异图像来显示两个图像之间的区别。
+
+    composite.exe: 将两个图像组合成一个图像。例如，可以将一个图像作为背景，另一个作为前景来组合它们。
+
+    conjure.exe: 用于处理 ImageMagick 脚本文件，这些文件包含一系列的命令以执行更复杂的图像处理任务。
+
+    convert.exe: 是 ImageMagick 的核心工具之一，用于转换、修改和处理图像。它支持多种操作，如调整大小、旋转、应用滤镜等。
+
+    dcraw.exe: 一个独立的工具，用于将数码相机的 RAW 格式图像转换为其他格式。
+
+    ffmpeg.exe: 一个非常强大的视频处理工具，可以进行视频转码、编辑和处理。
+
+    identify.exe: 提供图像的详细信息，如格式、尺寸、色彩等。
+
+    IMDisplay.exe: 图像显示工具，用于查看图像。
+
+    magick.exe: 在较新版本的 ImageMagick 中，magick 是一个集成的命令行工具，它结合了 convert, identify, 和其他一些功能。
+
+    mogrify.exe: 与 convert 类似，但它直接修改输入文件而不是创建新文件。例如，可以用它批量调整一系列图像的大小。
+
+    montage.exe: 用于创建一个图像合成，其中包含多个小图像。
+
+    stream.exe: 用于从图像中提取原始像素数据或将其插入图像中。
+
+这些工具使 ImageMagick 成为处理各种图像任务的强大工具。不过，由于其功能众多，最好参考 ImageMagick 的官方文档或使用 --help 选项来获取每个工具的详细信息和使用示例
+
+SRGB.icc
+ChangeLog.md
+imagemagick.rdf
+colors.xml
+configure.xml
+delegates.xml
+english.xml
+locale.xml
+log.xml
+mime.xml
+policy.xml
+quantization-table.xml
+thresholds.xml
+type.xml
+type-ghostscript.xml
+license.txt
+notice.txt
+readme.txt
+
+
